@@ -1,0 +1,17 @@
+# 线上配置文件
+# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
+# @from <a href="https://yupi.icu">编程导航知识星球</a>
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://sh-cynosdbmysql-grp-98pxrcoq.sql.tencentcdb.com:29164/user_center?useSSL=false'
+    username: self
+    password: liyupi66!
+  # session 失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
+
+# [加入学习圈](https://t.zsxq.com/0emozsIJh) 从 0 到 1 项目实战，经验拉满！10+ 原创项目手把手教程、1000+ 项目经验笔记、7 日项目提升训练营、60+ 编程经验分享直播
